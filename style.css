@@ -12,14 +12,11 @@
     width: 90%;
     margin: auto;
     padding: 2em;
-
 }
-
 
 .menulist ul li{
     display: inline-block;
 }
-
 
 .dropdown-toggle {
     color: white;
@@ -60,7 +57,6 @@
     color: white;
     background-color: rgb(46, 46, 46);
 }
-
 .btn-secondary.active, .btn-secondary.dropdown-toggle, .btn-secondary.dropdown-toggle:focus, .btn-secondary.dropdown-toggle::after, .dropdown-toggle::after   {
     background-color: transparent;
     box-shadow: none;
@@ -77,13 +73,13 @@
     text-align: center;
     color: white;
     padding: 5em;
-      }
+    }
 .maintitle span{
     color: rgb(207, 158, 66);
     }
 .maintitle H1{
     font-size: 4em;
-       }
+    }
 
 .maintitle p{
     padding: 1em;
@@ -94,32 +90,24 @@
     border-style: solid;
     border-width: 1px;
     border-color: rgb(207, 158, 66);
-    font-size: 1em;
-    
-    
+    font-size: 1em;    
 }
 .btn-outline-warning:hover {
     background-color: rgb(207, 158, 66);
     color: white;
-    border-style: none
-    
+    border-style: none    
 }
 
 @media (min-width: 1000px) {
-
     .section-2 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-
     }}
 
-
 @media (max-width: 1000px) {
-
     .section-2 {
         display: grid;
-        grid-template-columns: 1fr;
-    
+        grid-template-columns: 1fr;  
     }}
 
 .gridbox {
@@ -129,21 +117,17 @@
     background-color:black;
     min-height: 300px;   
 }
-
 .gridbox img {
     margin-top: 1em;
 }
-
 .gridbox2 img {
     margin-top: 1em;
 }
-
 .gridbox h2{
     padding-top: 2em;
     padding-bottom: 1em;
     font-size: larger ;
 }
-
 .gridbox2 h2{
     padding-top: 2em;
     padding-bottom: 1em;
@@ -156,14 +140,12 @@
     background-color:rgb(19, 19, 19);
     min-height: 300px
 }
-
 .section-3 {
     padding-top: 50px;
     margin: auto;
     width: 90%;
     text-align: center;
 }
-
 .boxline {
     border-radius: 20px;
     border-style: solid;
@@ -171,9 +153,7 @@
     border-color: rgb(207, 158, 66);
     width: 50px;
     margin: auto;
-
 }
-
 .sec3-text-container h2 {
     padding: 0.5em;
 }
@@ -230,129 +210,3 @@
     font-size: larger;
     padding: 1em;
 }
-
-/* div.menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background: #6a0080;
-    color: #ffffff;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-div.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-div.menu ul li {
-    display: inline-block;
-}
-div.menu ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 31px 10px;
-    display: block;
-    transition: 0.5s all; } */
-
-    /* .left-menu {
-        position: fixed;
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 300px;
-        background: url(../img/left-menu-bg.jpg);
-        background-size: cover;
-        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    }
-    
-    .left-menu .cover {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0,0,0,0.5);
-    }
-    
-    .left-menu .logo {
-        border-bottom: 2px solid #f0f0f0;
-        position: relative;
-    }
-    
-    .left-menu .logo img {
-        width: 80%;
-        margin-left: 10%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-    
-    .left-menu .menu {
-        position: relative;
-        margin-top: 20px;
-    }
-    
-    .left-menu .menu ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-    
-    .left-menu .menu ul li {
-        display: block;
-        position: relative;
-        width: 90%;
-        margin-left: 5%;
-        margin-top: 5px;
-    }
-    
-    .left-menu .menu ul li a {
-        display: block;
-        padding: 10px;
-        border-bottom: 1px solid #f0f0f0;
-        color: #ffffff;
-        background: rgba(0,0,0,0.5);
-        border-radius: 10px;
-        transition: 0.5s all;
-    }
-    
-    .left-menu .menu ul li.submenu::after {
-        content: "\\/";
-        display: block;
-        position: absolute;
-        right: 20px;
-        top: 10px;
-        color: #ffffff;
-        transition: 0.5s all;
-    }
-    
-    .left-menu .menu ul li.submenu:hover::after {
-        transform: rotate(180deg);
-    }
-    
-    .left-menu .menu ul li a:hover {
-        text-decoration: none;
-        background-color: rgba(0, 161, 35, 0.8);
-    }
-    
-    .left-menu .menu ul li ul {
-        display: none;
-    }
-    
-    .left-menu .menu ul li ul li {
-        width: 95%;
-    }
-    
-    .left-menu .menu ul li:hover ul {
-        display: block;
-    }
-    
-    .left-menu .menu ul li ul li a {
-        padding-left: 20px;
-    }
-
-    .dropdown-toggle {
-        color: black;
-        border-radius: 0;
-        background-color: transparent; */
